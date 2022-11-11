@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.9, pytest-7.2.0, pluggy-1.0.0
+rootdir: /Users/simoncorpuz/Documents/17-313/Recitation_8/recitation-8-scorpuz
+plugins: cov-4.0.0
+collected 3 items
+
+app/tests/test_fib.py ..                                                 [ 66%]
+app/tests/test_routes.py .                                               [100%]
+
+---------- coverage: platform darwin, python 3.8.9-final-0 -----------
+Name                       Stmts   Miss  Cover
+----------------------------------------------
+app/__init__.py                3      0   100%
+app/app.py                     6      6     0%
+app/fib.py                     8      2    75%
+app/handlers/__init__.py       0      0   100%
+app/handlers/routes.py        23      8    65%
+app/tests/__init__.py          0      0   100%
+app/tests/test_fib.py          5      0   100%
+app/tests/test_routes.py      10      0   100%
+----------------------------------------------
+TOTAL                         55     16    71%
+
+
+============================== 3 passed in 4.16s ===============================
