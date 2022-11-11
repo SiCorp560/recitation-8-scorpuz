@@ -32,6 +32,6 @@ jobs:
           pipenv run pytest --cov=app
       - name: Build coverage file
         run: |
-          pytest --cache-clear --cov=app > pytest-coverage.txt
+          pytest --cache-clear --cov=app
       - name: Comment coverage
         uses: coroo/pytest-coverage-commentator@v1.0.2
